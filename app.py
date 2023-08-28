@@ -13,6 +13,7 @@ PLACEHOLDER = "print('Hello World')"
 DEFAULT_STYLE = 'monokai'
 NO_CODE_MESSAGE = "#No Code Entered "
 
+
 @app.route('/', methods=['GET'])
 def code():
     if not session.get('code'):
